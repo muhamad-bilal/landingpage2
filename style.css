@@ -7,7 +7,7 @@ body{
 .whitebox {
     
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     border: 50px solid #db4545;
     background-color: #fff;
     box-sizing: border-box ;
