@@ -8,8 +8,7 @@
     border: 50px solid #db4545;
     background-color: #fff;
     box-sizing: border-box ;
-    padding: 20px
-    ;
+    padding: 20px;
   }
 
   header{
@@ -130,6 +129,7 @@ ul{
     justify-content: center;
     gap: 100px;
     text-align: center;
+    
   }
   
   .info {
