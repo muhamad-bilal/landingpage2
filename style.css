@@ -1,14 +1,17 @@
-/* CSS code */
+*{
+    flex-wrap: wrap;
+}
 .whitebox {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     border: 50px solid #db4545;
     background-color: #fff;
     box-sizing: border-box ;
     padding: 20px;
+    
   }
 
   header{
@@ -129,14 +132,29 @@ ul{
     justify-content: center;
     gap: 100px;
     text-align: center;
-    
+    align-items: flex-start; 
   }
   
   .info {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
     gap: 10px;
     max-width: 200px;
+    text-align: center; 
   }
-
-  .text{
-    margin-top: 25px;
+  
+  .text {
+    margin-top: 10px; 
   }
+  
+  .image {
+    max-width: 300px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: solid #db4545;
+    object-fit: cover; 
+  }
+  
