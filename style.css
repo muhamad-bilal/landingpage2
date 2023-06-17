@@ -5,9 +5,7 @@ body{
     overflow: auto;
 }
 .whitebox {
-    position: fixed;
-    top: 0;
-    left: 0;
+    
     width: 100%;
     height: fit-content;
     border: 50px solid #db4545;
