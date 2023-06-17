@@ -1,21 +1,19 @@
-*{
-    flex-wrap: wrap;
+* {
+  flex-wrap: wrap;
 }
-body{
-    overflow: auto;
-}
-.whitebox {
-    
-    width: 100%;
-    height: 100vh;
-    border: 50px solid #db4545;
-    background-color: #fff;
-    box-sizing: border-box ;
-    padding: 20px;
-    
-  }
 
-  header{
+body {
+  overflow: auto;
+}
+
+.whitebox {
+  position: relative;
+  border: 50px solid #db4545;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+}
+ header{
     
     display: flex;
     justify-content: space-between;
